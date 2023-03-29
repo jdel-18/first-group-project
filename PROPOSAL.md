@@ -19,7 +19,7 @@
 ​
 - Clone our repo to your computer
 ​
-- ...
+- https://github.com/jdel-18/first-group-project
 ​
 ​
 ## Animated Gifs/Pictures of App
@@ -43,9 +43,10 @@ HTML
 ​
 ## MVP (Minimum Viable Product)
 ​
--
+- in one box, List of marvel characters with pictures, min 5 characters. Upon selecting a character a brief bio and comic book picture is provided in a "bio box".
+In a adjacent box, an associated gif's/sickers of them will display with ability to save GIF/Stickers
 ​
 ​
 ## Stretch Goals
 ​
--
+- Upon search video of character is provided,
