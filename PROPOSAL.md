@@ -7,7 +7,7 @@
 ​
 ## Developers
 ​
-1. Jushua
+1. Joshua
 ​
 2. Rayito
 ​
@@ -29,6 +29,7 @@
 ## Tech Stack
 ​
 - What languages is it written with: 
+HTML
 ​
 - What libraries are used: 
 ​
@@ -37,7 +38,8 @@
 ​
 ## APIs
 ​
--
+- Marvel API
+- Giphy API
 ​
 ## MVP (Minimum Viable Product)
 ​
