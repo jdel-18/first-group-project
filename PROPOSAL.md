@@ -7,7 +7,7 @@
 ​
 ## Developers
 ​
-1. Jushua
+1. Joshua
 ​
 2. Rayito
 ​
@@ -37,7 +37,8 @@
 ​
 ## APIs
 ​
--
+- Marvel API
+- Giphy API
 ​
 ## MVP (Minimum Viable Product)
 ​
