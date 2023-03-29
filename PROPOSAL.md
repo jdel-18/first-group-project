@@ -1,17 +1,19 @@
-# Project Name
+# Marvel Character info and GIFS
 ​
 ​
 ## Project Summary
 ​
-...
+ as a group effort, we worked together as a team to provide a search engine for Marvel Characters and personal library for marvel GIF to keep track of their collection of favorite GIF's by marvel character
 ​
 ## Developers
 ​
-1. ...
+1. Joshua
 ​
-2. ...
+2. Rayito
 ​
-3. ...
+3. Philipp
+
+4. Grant
 ​
 ## Installation Instructions
 ​
@@ -36,7 +38,8 @@ HTML, CSS - Tailwind, JavaScript
 ​
 ## APIs
 ​
--
+- Marvel API
+- Giphy API
 ​
 ## MVP (Minimum Viable Product)
 ​
