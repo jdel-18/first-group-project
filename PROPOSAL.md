@@ -49,4 +49,4 @@ In a adjacent box, an associated gif's/sickers of them will display with ability
 ​
 ## Stretch Goals
 ​
-- Upon search video of character is provided,
+- Upon search video of character is provided
