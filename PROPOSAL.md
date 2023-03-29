@@ -29,6 +29,7 @@
 ## Tech Stack
 ​
 - What languages is it written with: 
+HTML
 ​
 - What libraries are used: 
 ​
