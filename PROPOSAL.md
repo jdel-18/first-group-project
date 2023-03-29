@@ -27,10 +27,7 @@
 ## Tech Stack
 ​
 - What languages is it written with: 
-<<<<<<< Updated upstream
-=======
 HTML, CSS - Tailwind, JavaScript
->>>>>>> Stashed changes
 ​
 - What libraries are used: 
 ​
