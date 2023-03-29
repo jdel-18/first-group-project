@@ -29,7 +29,7 @@
 ## Tech Stack
 ​
 - What languages is it written with: 
-HTML
+HTML, CSS - Tailwind, JavaScript
 ​
 - What libraries are used: 
 ​
