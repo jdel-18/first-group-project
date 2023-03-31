@@ -1,13 +1,15 @@
-
+var MarvelAPIKey = '56d680ad350989db0b995c28d74c5a40'
+var GIFHYAPIKey = '43tnZfZ4jipkYDI9CLL5Vxf8VrJQ6daP'
 
 
 document.getElementById("img1").addEventListener("click", function () {
     // API call goes here
-    fetch(" ")
+    fetch("")
       .then((Response) => Response.json())
       .then((data) => {
-        document.getElementById("img1").innerHTML = data.Response;
+        document.getElementById("description").innerHTML = data.Response;
       });
+      console.log(img1)
   });
 document.getElementById("img2").addEventListener("click", function () {
   // API call goes here
