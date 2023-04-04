@@ -20,9 +20,16 @@ fetch(marvelQueryURL)
     results.forEach(function (result) {
       characterInfo += `Name: ${result.name}\n`;
       characterInfo += `Description: ${result.description}\n`
-      characterInfo += `thumbnail: ${result.thumbnail}\n`;;
+      characterInfo += `thumbnail: ${result.thumbnail}\n`;
+
+      document.querySelector('.description').textContent = result.description
+      document.querySelector('.name').textContent = result.name
+      document.querySelector('.thumbnail').innerHTML = `<img src="${result.thumbnail.path}.${result.thumbnail.extension}" alt="${result.name} thumbnail" />`
     });
     console.log(characterInfo);
+
+    // Save the data to local storage
+    localStorage.setItem('marvelData', JSON.stringify(data));
   })
   .catch(function (error) {
     console.error(error);
