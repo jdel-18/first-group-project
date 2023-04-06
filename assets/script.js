@@ -5,6 +5,23 @@ var GIFHYAPIKey = "43tnZfZ4jipkYDI9CLL5Vxf8VrJQ6daP";
 const searchBar = document.getElementById("SearchBar");
 let characterName = "";
 
+// Load past searches from localStorage
+const pastSearchesList = document.getElementById("pastSearches");
+const pastSearches = JSON.parse(localStorage.getItem("pastSearches")) || [];
+
+function addPastSearch(query) {
+  // Check if the search term already exists in past searches
+  if (!pastSearches.includes(query)) {
+    const item = document.createElement("li");
+    item.textContent = query;
+    item.addEventListener("click", () => performSearch(query));
+    pastSearchesList.appendChild(item);
+    pastSearches.push(query);
+    // Save the updated past searches to localStorage
+    localStorage.setItem("pastSearches", JSON.stringify(pastSearches));
+  }
+}
+
 searchBar.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     characterName = searchBar.value;
@@ -12,7 +29,15 @@ searchBar.addEventListener("keydown", (event) => {
     performSearch(characterName);
   }
 });
+const label = document.querySelector('label[for="SearchBar"]');
 
+searchBar.addEventListener("input", () => {
+  if (searchBar.value.trim() === "") {
+    label.classList.remove("hidden");
+  } else {
+    label.classList.add("hidden");
+  }
+});
 const img1 = document.getElementById("img1");
 const img2 = document.getElementById("img2");
 const img3 = document.getElementById("img3");
@@ -20,7 +45,7 @@ const img4 = document.getElementById("img4");
 const img5 = document.getElementById("img5");
 
 img1.addEventListener("click", () => performSearch("Hulk"));
-img2.addEventListener("click", () => performSearch("Ironman"));
+img2.addEventListener("click", () => performSearch("Iron man"));
 img3.addEventListener("click", () => performSearch("Thanos"));
 img4.addEventListener("click", () => performSearch("Thor"));
 img5.addEventListener("click", () => performSearch("Wolverine"));
@@ -44,8 +69,7 @@ function performSearch(characterName) {
         characterInfo += `Description: ${result.description}\n`;
         characterInfo += `thumbnail: ${result.thumbnail}\n`;
 
-        document.querySelector(".description").textContent =
-          result.description;
+        document.querySelector(".description").textContent = result.description;
         document.querySelector(".name").textContent = result.name;
         document.querySelector(
           ".thumbnail"
@@ -55,12 +79,14 @@ function performSearch(characterName) {
 
       // Save the data to local storage
       localStorage.setItem("marvelData", JSON.stringify(data));
+
+      // Add the search term to the past searches list
+      addPastSearch(characterName);
     })
     .catch(function (error) {
       console.error(error);
     });
-
-  var giphyQueryURL = `https://api.giphy.com/v1/gifs/random?api_key=${GIFHYAPIKey}&tag=${characterName}&rating=pg-13`;
+  var giphyQueryURL = `https://api.giphy.com/v1/gifs/translate?api_key=${GIFHYAPIKey}&s=${characterName}`;
   fetch(giphyQueryURL)
     .then(function (response) {
       return response.json();
@@ -75,4 +101,5 @@ function performSearch(characterName) {
     .catch(function (error) {
       console.error(error);
     });
+  
 }
