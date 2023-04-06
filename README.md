@@ -22,6 +22,8 @@ https://www.writeups.org/iron-man-armor-golden-avenger-mk5-marvel-comics/
 
 - Link for Hulk image<br>
 https://www.pinterest.com/pin/the-incredible-hulk--742531057288626099/
+
+- Link for Thor image<br>
 https://www.pinterest.co.kr/pin/350436414749089481/
 
 - Link for Red and Blue backgorund<br>
