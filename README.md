@@ -1,12 +1,19 @@
 # first-group-repo
 # Project Name: Marvel GIF's, Assemble!
 
-## Description
+# Description
 As a development group, we were tasked to build a unique API application with various elements we all have learned in class.
-Our motivation for this project was for the sole purpose to help Marvel fanatics out there have the accesability in finding GIF's associated with the characters from the Marvel Universe. The purpose for this application is to assist Marvel fans out there find some of their favorite GIF's involving their favorite Marvel Characters. The problem this application solves is how it is such a necessary tool for anyone who is a fan of Marvel to readily have access, and in general, to find all kinds of GIF's relating to their favorite characters they search into.
+Our motivation for this project was for the sole purpose to help Marvel fanatics out there have the accessibility in finding GIF's associated with the characters from the Marvel Universe.
+The purpose for this application is to assist Marvel fans out there find some of their favorite GIF's involving their favorite Marvel Characters.
+The problem this application solves is how it is such a necessary tool for anyone who is a fan of Marvel to readily have access, and in general, to find all kinds of GIF's relating to their favorite characters they search into.<br>
+We learned how to dynamic web design with API's and stylize with Tailwind.
 
 # Installation
 This application does not require installation, you should just run the application in the browser.
+
+# Usage
+Upon visiting the application, you can click on the search bar below the application title in order to search any Marvel character you can think of. Upon doing doing that, an image of the searched character will display accompanying with a short detailed information regarding them. Right next to the image of the character, a random GIF will display to the right side, eventually changing to a new one everytime the browser is refreshed.<br><br>
+Check it out for yourself! [Marvel GIF's, Assemble! Link Here]
 
 
 
