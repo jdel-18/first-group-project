@@ -12,17 +12,8 @@ We learned how to dynamic web design with API's and stylize with Tailwind.
 This application does not require installation, you should just run the application in the browser.
 
 # Usage
-Upon visiting the application, you can click on the search bar below the application title in order to search any Marvel character you can think of. Upon doing doing that, an image of the searched character will display accompanying with a short detailed information regarding them. Right next to the image of the character, a random GIF will display to the right side, eventually changing to a new one everytime the browser is refreshed.<br><br>
-Check it out for yourself! [Marvel GIF's, Assemble! Link Here]
-
-
-
-
-
-
-
-
-
+Upon visiting the application, you can click on the search bar below the application title in order to search any Marvel character you can think of. Upon doing doing that, an image of the searched character will display accompanying with a short detailed information regarding them. Right next to the image of the character, a random GIF will display to the right side, eventually changing to a new one everytime the browser is refreshed. Right below the search bar on top of the application, there is a 'Past Searches' red button and when it is clicked, it will display the list of recently searched characters. <br><br>
+Check it out for yourself! [Marvel GIF's, Assemble! Link Here]  https://jdel-18.github.io/first-group-project/
 
 ## Project Resources Links and other
 
