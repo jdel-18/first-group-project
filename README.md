@@ -37,3 +37,7 @@ https://www.pinterest.co.kr/pin/350436414749089481/
 Image by <a href="https://www.freepik.com/free-vector/comic-style-background_12300602.htm#query=comic%20background&position=6&from_view=keyword&track=ais">Freepik</a>
 
 - Class Lectures and resources provided by <i>Rice University Coding Bootcamp</i> in partnership with <i>edX.</i>
+
+## Links
+- GitHub Repository Link: https://github.com/jdel-18/first-group-project
+- Live Site: https://jdel-18.github.io/first-group-project/
